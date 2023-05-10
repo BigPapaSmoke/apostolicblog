@@ -16,6 +16,9 @@
 
         <!-- Styles -->
         @livewireStyles
+
+        {{-- Blade styles --}}
+        @bukStyles(true)
     </head>
     <body class="font-sans antialiased">
         <x-banner />
@@ -48,5 +51,9 @@
         @stack('modals')
 
         @livewireScripts
+
+        {{-- Blade scripts --}}
+
+@bukScripts(true)
     </body>
 </html>
